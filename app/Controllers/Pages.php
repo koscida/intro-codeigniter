@@ -5,6 +5,10 @@ namespace App\Controllers;
 // Page Not Found Exception
 use CodeIgniter\Exceptions\PageNotFoundException;
 
+// Add Controllers
+use App\Controllers\News;
+use App\Controllers\Pages;
+
 class Pages extends BaseController
 {
     public function index()
